@@ -33,6 +33,22 @@ This project analyzes Twitter data to uncover sentiment trends and topic prefere
 - Cross-platform opinion mining
 - Real-time policy impact assessment
 
+## Installation
+
+This project uses [uv](https://github.com/astral-sh/uv) package manager. So, first please install uv using following [these instructions](https://github.com/astral-sh/uv?tab=readme-ov-file#installation).
+
+To install the required packages, run the following command:
+
+```bash
+uv sync
+```
+
+Now, just run the following command to start the project
+
+```bash
+uv run streamlit run app.py
+```
+
 ## Team
 
 Project developed by Team NP: Suyog Dahal and Avaya Kumar Baniya
